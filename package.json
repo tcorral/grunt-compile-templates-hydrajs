@@ -2,22 +2,22 @@
   "name": "grunt-compile-templates-hydra",
   "description": "Update the README.md, bower.json and component.json with the new Hydra.js version",
   "version": "0.1.0",
-  "homepage": "https://github.com/HydraJS/grunt-compile-templates-hydrajs",
+  "homepage": "https://github.com/tcorral/grunt-compile-templates-hydrajs",
   "author": {
     "name": "tcorral",
     "email": "amischol@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/HydraJS/grunt-compile-templates-hydrajs.git"
+    "url": "git://github.com/tcorral/grunt-compile-templates-hydrajs.git"
   },
   "bugs": {
-    "url": "https://github.com/HydraJS/grunt-compile-templates-hydrajs/issues"
+    "url": "https://github.com/tcorral/grunt-compile-templates-hydrajs/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/HydraJS/grunt-compile-templates-hydrajs/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tcorral/grunt-compile-templates-hydrajs/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
