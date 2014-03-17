@@ -29,7 +29,7 @@ exports.compile_templates_hydra = {
   },
   bower: function ( test ) {
     test.expect(4);
-    var actual = JSON.parse(grunt.file.read('bower.json'));
+    var actual = JSON.parse(grunt.file.read('test/retrieved/bower.json'));
     var expected = JSON.parse(grunt.file.read('test/expected/bower.json'));
 
     test.equal(actual.name, expected.name, 'should return "hydrajs"');
@@ -41,7 +41,7 @@ exports.compile_templates_hydra = {
   },
   component: function ( test ) {
     test.expect(7);
-    var actual = JSON.parse(grunt.file.read('component.json'));
+    var actual = JSON.parse(grunt.file.read('test/retrieved/component.json'));
     var expected = JSON.parse(grunt.file.read('test/expected/component.json'));
 
     test.equal(actual.name, expected.name, 'should return "hydrajs"');
@@ -56,7 +56,7 @@ exports.compile_templates_hydra = {
   },
   readme: function ( test ) {
     test.expect(2);
-    var actual = grunt.file.read('README.md');
+    var actual = grunt.file.read('test/retrieved/README.md');
     var expected = grunt.file.read('test/expected/README.md');
 
     test.ok(actual.indexOf('0.02KB') !== -1, 'should return "hydra.js"');

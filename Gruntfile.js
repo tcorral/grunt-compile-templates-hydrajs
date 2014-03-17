@@ -30,32 +30,23 @@ module.exports = function(grunt) {
 
     // Configuration to be run (and then tested).
     compile_templates_hydra: {
-      devel: {
-        base: __dirname,
-        templates: {
-          folder: 'test/fixtures',
-          files: [
-            {
-              src: 'bower.tpl',
-              dest: 'bower.json'
-            },
-            {
-              src: 'component.tpl',
-              dest: 'component.json'
-            },
-            {
-              src: 'README.tpl',
-              dest: 'README.md'
-            }
-          ]
-        },
-        file: 'test/fixtures/file.js',
+      options: {
         variables: {
           version: "3.9.8",
           description: "Framework that gives you the tools to write your application using modules or widgets and make easy to work with them.",
           repository_type: "git",
           repository_url: "git://github.com/HydraJS/HydraJS.git",
           repository_shorten: "HydraJS/HydraJS.git"
+        }
+      },
+      devel: {
+        options: {
+          file: 'test/fixtures/file.js'
+        },
+        files: {
+          'test/retrieved/bower.json': 'test/fixtures/bower.tpl',
+          'test/retrieved/component.json': 'test/fixtures/component.tpl',
+          'test/retrieved/README.md': 'test/fixtures/README.tpl',
         }
       }
     },

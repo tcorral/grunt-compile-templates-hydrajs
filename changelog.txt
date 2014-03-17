@@ -1,0 +1,6 @@
+0.2.0
+	- Change options to be more Grunt compliant.
+0.1.1
+	- Add compatibility with templates without needing size of a file
+0.1.0
+	- First commit.

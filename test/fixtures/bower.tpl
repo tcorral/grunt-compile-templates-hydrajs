@@ -1,4 +1,3 @@
-
 {
     "name": "hydrajs",
     "version": "{{ version }}",

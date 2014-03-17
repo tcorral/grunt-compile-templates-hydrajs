@@ -1,9 +1,0 @@
-
-{
-    "name": "hydrajs",
-    "version": "3.9.8",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/HydraJS/HydraJS.git"
-    }
-}

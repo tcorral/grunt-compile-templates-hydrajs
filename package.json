@@ -1,7 +1,7 @@
 {
   "name": "grunt-compile-templates-hydra",
   "description": "Update the README.md, bower.json and component.json with the new Hydra.js version",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/tcorral/grunt-compile-templates-hydrajs",
   "author": {
     "name": "tcorral",
